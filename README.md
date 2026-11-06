@@ -25,44 +25,6 @@ Rather than treating camera frames and sensor logs as independent datasets, COSM
 - Reconstruct and visualize rover trajectories.
 - Provide a centralized dashboard for mission monitoring and analysis.
 
-## 🧠 System Architecture
-
-            COSMIC_PI
-          (Onboard System)
-                 |
-       +---------+----------+
-       |                    |
-   Camera Frames       Sensor Telemetry
-       |                    |
-       +---------+----------+
-                 |
-          Mission Dataset
-                 |
-        Timestamp Synchronization
-                 |
-        +--------+---------+
-        |                  |
-   Image Processing    Sensor Processing
-        |                  |
-   ORB Feature         Trajectory
-   Extraction          Reconstruction
-        |                  |
-   Feature Database        |
-        |                  |
-   Image Matching          |
-        |                  |
-   Visual Localization     |
-        |                  |
-        +--------+---------+
-                 |
-             ORB-SLAM3
-                 |
-        Mission Reconstruction
-                 |
-          Ground Dashboard
-                 |
-       Visualization & Analysis
-
 ## ⚙️ Core Modules
 
 ### 1. Mission Data Acquisition
