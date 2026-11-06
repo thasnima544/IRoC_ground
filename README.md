@@ -47,11 +47,11 @@ Rather than treating camera frames and sensor logs as independent datasets, COSM
    ORB Feature         Trajectory
    Extraction          Reconstruction
         |                  |
-   Feature Database       |
+   Feature Database        |
         |                  |
-   Image Matching         |
+   Image Matching          |
         |                  |
-   Visual Localization    |
+   Visual Localization     |
         |                  |
         +--------+---------+
                  |
